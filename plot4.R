@@ -31,7 +31,7 @@ lines(dmy(plotdata_clean$Date) + hms(plotdata_clean$Time),as.numeric(plotdata_cl
 lines(dmy(plotdata_clean$Date) + hms(plotdata_clean$Time),as.numeric(plotdata_clean$Sub_metering_3), col="blue")
 
 #add the legend
-legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"), lty=1)
+legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"), lty=1, bty="n")
 
 
 ## Add plot 4
